@@ -86,7 +86,29 @@ ul {
 .card {
     display: flex;
     flex-direction: row;
+    width: 100px;
+    margin-left: -150px;
 }
+
+.card .product1 {
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+}
+
+.card .product2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+.card .product3 {
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+}
+
 .product {
     width: 150px;
 }
@@ -170,7 +192,7 @@ footer {
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: right;
-    margin-right: 200px;
+    margin-right: 185px;
 }
 
 .aboutBody h1 {
@@ -181,6 +203,51 @@ footer {
 }
 
 .aboutBody p {
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.h1Mission {
+    margin-left: 300px;
+    padding: 15px;
+    font-size: 40pt;
+    letter-spacing: 5px;
+}
+
+.mission {
+    margin-left: 300px;
+    margin-right: 200px;
+    background-image: url("assets/about1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: -20px -20px rgb(128, 139, 240);
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.aboutMission {
+    margin-left: 200px;
+    padding: 50px;
+    background-image: url("assets/robot1.jpg");
+    background-size: 18%;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 350px;
+}
+
+.aboutMission h1 {
+    margin-left: 40px;
+    padding: 50px;
+    font-size: 32pt;
+    letter-spacing: 2px;
+}
+
+.aboutMission p {
     line-height: 1.5;
     letter-spacing: 1.5px;
 }
