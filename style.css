@@ -25,7 +25,12 @@ ul {
     margin-left: 300px;
 }
 
-.companyName {
+.buttons a {
+    color: black;
+    text-decoration: none;
+}
+
+.h1Company {
     margin-left: 300px;
     padding: 15px;
     font-size: 26pt;
@@ -78,6 +83,10 @@ ul {
     box-sizing:content-box;
 }
 
+.card {
+    display: flex;
+    flex-direction: row;
+}
 .product {
     width: 150px;
 }
@@ -108,20 +117,70 @@ footer {
     background: linear-gradient(to left, #1663d6, #8f34a1);
     color: white;
     padding: 10px;
-    gap: 50px;
+}
+
+.allMedia {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
 }
 
 .socialMedia {
     margin-right: 180px;
-    margin-left: 1415px;
     display: flex;
     justify-content: flex-end;
     gap: 30px;
     padding: 30px;
     background: linear-gradient(to left, #1663d6, #8f34a1);
     border-radius: 50px;
+    width: 11%;
 }
 
 .socialMedia .buttons {
     padding: 100px;
+}
+
+.h1About {
+    margin-left: 300px;
+    padding: 15px;
+    font-size: 40pt;
+    letter-spacing: 5px;
+}
+
+.team {
+    margin-left: 300px;
+    margin-right: 200px;
+    background-image: url("assets/about1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: -20px -20px rgb(128, 139, 240);
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.aboutBody {
+    margin-left: 200px;
+    padding: 50px;
+    background-image: url("assets/humanrobot.jpg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 200px;
+}
+
+.aboutBody h1 {
+    margin-left: 40px;
+    padding: 50px;
+    font-size: 32pt;
+    letter-spacing: 2px;
+}
+
+.aboutBody p {
+    line-height: 1.5;
+    letter-spacing: 1.5px;
 }
