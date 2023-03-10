@@ -32,9 +32,12 @@ ul {
 
 .h1Company {
     margin-left: 300px;
-    padding: 15px;
+    padding: 30px;
     font-size: 26pt;
     letter-spacing: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
 }
 
 .indexFoto {
@@ -91,23 +94,54 @@ ul {
 }
 
 .card .product1 {
-    width: 300px;
+    width: 250px;
     height: 300px;
     margin-right: 15px;
 }
 
 .card .product2 {
-    width: 300px;
+    width: 250px;
     height: 300px;
-    margin-left: 40px;
+    margin-left: -10px;
     margin-right: 15px;
 }
 
 .card .product3 {
-    width: 300px;
+    width: 200px;
     height: 300px;
     margin-right: 15px;
+    margin-left: -30px;
 }
+
+.card .product1 {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card .product1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .card .product2 {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card .product2:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .card .product3 {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card .product3:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
 
 .product {
     width: 150px;
@@ -164,16 +198,20 @@ footer {
 
 .h1About {
     margin-left: 300px;
-    padding: 15px;
-    font-size: 40pt;
+    padding: 30px;
+    font-size: 26pt;
     letter-spacing: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
 }
 
 .team {
     margin-left: 300px;
     margin-right: 200px;
-    background-image: url("assets/about1.jpg");
-    background-size: cover;
+    background-image: url("assets/business.jpg");
+    background-size:cover;
+    overflow: hidden;
     border-radius: 20px;
     box-shadow: -20px -20px rgb(128, 139, 240);
     height: 400px;
@@ -209,15 +247,18 @@ footer {
 
 .h1Mission {
     margin-left: 300px;
-    padding: 15px;
-    font-size: 40pt;
+    padding: 30px;
+    font-size: 26pt;
     letter-spacing: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
 }
 
 .mission {
     margin-left: 300px;
     margin-right: 200px;
-    background-image: url("assets/about1.jpg");
+    background-image: url("assets/industry.jpg");
     background-size: cover;
     border-radius: 20px;
     box-shadow: -20px -20px rgb(128, 139, 240);
@@ -250,4 +291,53 @@ footer {
 .aboutMission p {
     line-height: 1.5;
     letter-spacing: 1.5px;
+}
+
+.productOne {
+    margin-left: 300px;
+    font-size: 20pt;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+.productOneText {
+    margin-top: 180px;
+}
+
+.productOneAll {
+    display: flex;
+    align-items: flex-start;
+}
+
+.productTwo {
+    margin-left: 300px;
+    font-size: 20pt;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+.productTwoText {
+    margin-top: 180px;
+}
+
+.productTwoAll {
+    display: flex;
+    align-items: flex-start;
+}
+
+.productThree {
+    margin-left: 300px;
+    font-size: 20pt;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+.productThreeText {
+    margin-top: 180px;
+    margin-left: 155px;
+}
+
+.productThreeAll {
+    display: flex;
+    align-items: flex-start;
 }
